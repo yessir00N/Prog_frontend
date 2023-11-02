@@ -1,7 +1,7 @@
 @use 'colors';
 @use 'fonts';
 
-//CTA button with Hover
+
 %cta{
   width: 11rem;
   padding:0.5rem;
@@ -19,14 +19,14 @@
   transition: 0.2s;
 }
 
-//deafult header for sections 
+
 %header{
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
-//h2 section and header
+
 
 %h2Handwriting{
   font-family: fonts.$handwriting;
@@ -34,7 +34,7 @@
   color: colors.$font-color
 }
 
-//deafult sections
+
 %section{
   height: 80rem;
   border-bottom: colors.$border-pink-small;

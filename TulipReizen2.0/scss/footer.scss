@@ -1,27 +1,27 @@
 @use 'components';
 @use 'colors';
 
-.social--footer {
+.social__footer {
   @extend %section;
   height: 10rem;
 }
 
-.social-icons {
-  display: flex; /* Display the icons in a row */
-  list-style: none; /* Remove the default list styles */
-  padding: 0; /* Remove any default padding */
-  justify-content: center; /* Adjust the alignment as needed */
+.social_icons {
+  display: flex; 
+  list-style: none; 
+  padding: 0; 
+  justify-content: center;
 }
 
-.social-icons li {
-  margin-right: 2rem; /* Adjust the margin for spacing between icons */
+.social_icons li {
+  margin-right: 2rem; 
 }
 
-.social-icons a {
+.social_icons a {
   color: red;
-  font-size: 2rem; /* Adjust the font size as needed */
+  font-size: 2rem; 
 }
 
-.social-icons a:hover {
+.social_icons a:hover {
   color: colors.$pink;
 }
